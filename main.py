@@ -97,10 +97,10 @@ while something:
 
             print("Please insert coins.")
 
-           quarters = int(input("how many quarters?: "))
-           dimes = int(input("how many dimes?: "))
-           nickles = int(input("how many nickles?: "))
-           pennies = int(input("how many pennies?: "))
+            quarters = int(input("how many quarters?: "))
+            dimes = int(input("how many dimes?: "))
+            nickles = int(input("how many nickles?: "))
+            pennies = int(input("how many pennies?: "))
 
             total_money = money_calculate(quarters, dimes, nickles, pennies)
 
